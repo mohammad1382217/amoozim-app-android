@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adaptive-icon background. Updated to the brand primary after design mapping. -->
+    <color name="ic_launcher_background">#1D4ED8</color>
+</resources>

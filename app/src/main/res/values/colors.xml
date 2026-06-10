@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pre-Compose window background (light). Replaced visually by Compose theme
+         once the first frame renders. Kept in sync with the Compose light scheme. -->
+    <color name="window_background">#FFFFFF</color>
+</resources>

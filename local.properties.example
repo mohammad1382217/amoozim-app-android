@@ -1,0 +1,13 @@
+# Copy this file to `local.properties` (which is git-ignored) and fill in the values.
+# Android Studio writes `sdk.dir` automatically when you open the project.
+
+# Path to your Android SDK (Android Studio sets this for you).
+# sdk.dir=C\:\\Users\\<you>\\AppData\\Local\\Android\\Sdk
+
+# --- API hosts (consumed by :core:network via BuildConfig) ---
+# Defaults (used if omitted) point at the public dev hosts. Mirror of the web
+# app's VITE_API_URL family. Do NOT commit real internal IPs.
+API_URL=https://api-dev.amoozim.com/api
+API_URL_ANALYTICS=https://analytics-dev.amoozim.com/api
+STORAGE_API_BASE=https://storage.amoozim.com/api
+STORAGE_PREVIEW_BASE=https://storage.amoozim.com
