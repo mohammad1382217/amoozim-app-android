@@ -33,6 +33,8 @@ dependencies {
     implementation(libs.bundles.lifecycle.compose)
     debugImplementation(libs.androidx.compose.ui.tooling)
 
+    implementation(libs.kotlinx.coroutines.android)
+
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
