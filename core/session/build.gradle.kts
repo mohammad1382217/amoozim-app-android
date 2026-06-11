@@ -28,7 +28,10 @@ kotlin {
 dependencies {
     api(project(":core:model"))
     api(project(":core:common"))
-    implementation(project(":core:network"))
+    // `api`, not `implementation`: SessionManager implements TokenRefresher from
+    // :core:network, so that supertype leaks into :core:session's public API and
+    // must be on the compile classpath of any feature that touches SessionManager.
+    api(project(":core:network"))
 
     implementation(libs.retrofit)
     implementation(libs.kotlinx.serialization.json)

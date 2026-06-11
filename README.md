@@ -114,7 +114,8 @@ OkHttp + kotlinx.serialization · Coil · Coroutines/Flow. Versions are centrali
 | Home tab — mini-app header + course list (debounced search, infinite scroll) | ✅ real |
 | Course detail — course info + ordered lessons (lock state) | ✅ real |
 | Profile tab — `auth/me` | ✅ real |
-| Users / Publish / Wallet / My Courses tabs | 🟡 navigable placeholders |
+| Wallet tab — mini-app statistics report | ✅ real |
+| Users / Publish / My Courses tabs | 🟡 navigable placeholders |
 
 ## Roadmap
 

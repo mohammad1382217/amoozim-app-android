@@ -17,6 +17,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.amoozim.creator.core.session.RoleAccess
 import com.amoozim.creator.feature.course.ui.CoursesScreen
+import com.amoozim.creator.feature.miniapp.ui.WalletStatsScreen
 import com.amoozim.creator.feature.profile.ProfileScreen
 import com.amoozim.creator.ui.navigation.TabRoutes
 
@@ -66,7 +67,7 @@ fun MiniAppShell(
             composable(TabRoutes.HOME) { CoursesScreen(onCourseClick = onCourseClick) }
             composable(TabRoutes.USERS) { PlaceholderScreen(title = "کاربران") }
             composable(TabRoutes.PUBLISH) { PlaceholderScreen(title = "انتشار") }
-            composable(TabRoutes.WALLET) { PlaceholderScreen(title = "کیف پول") }
+            composable(TabRoutes.WALLET) { WalletStatsScreen() }
             composable(TabRoutes.MY_COURSES) { PlaceholderScreen(title = "آموزش‌های من") }
             composable(TabRoutes.PROFILE) { ProfileScreen(onSignedOut = onSignedOut) }
         }
